@@ -1,0 +1,31 @@
+.random-film {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .random-film {
+    border-radius: 10px;
+    margin-right: 1rem;
+  }
+  
+  .random-film .list-group {
+    margin: 1rem 0 0 1rem;
+  }
+  
+  .random-film .list-group-item {
+    padding: .25rem;
+  }
+  
+  .random-film .list-group-item .term {
+    margin-right: .5rem;
+  }
+
+  .film-image {
+    width:150px;
+    height:225px; 
+  }
+.h4{
+    padding-left: 15px;
+    font-weight: bold
+}

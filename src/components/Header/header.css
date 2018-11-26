@@ -1,0 +1,10 @@
+.header{
+    background-color: rgb(235, 104, 104)
+}
+.search-input{
+   margin-left: 5px;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   width: 300px;
+   background-color:rgb(240, 161, 105);
+}
