@@ -1,0 +1,23 @@
+.flex-container {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.card {
+  width: 18rem;
+  float: center;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.card-body {
+  height: 25rem;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-img-top{
+    height: 28rem;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../Header";
 import RandomFilm from "../RandomFilm";
+import TopRated from '../TopRated'
 
 export default class App extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class App extends Component {
    <div>
        <Header/>
        <RandomFilm/>
+       <TopRated/>
        </div>
     );
   }
