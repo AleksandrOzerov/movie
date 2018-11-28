@@ -24,7 +24,7 @@ export default class Service {
     return arr;
   }
 
-  transformFilm(film) {
+  transformFilm = (film) => {
     return {
       id: film.id,
       image: film.poster_path,
