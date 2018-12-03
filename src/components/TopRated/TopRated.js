@@ -7,8 +7,7 @@ export default class TopRated extends Component {
   state = {
     films: []
   };
-  constructor() {
-    super();
+  componentDidMount() {
     this.updateFilms();
   }
 
@@ -24,14 +23,14 @@ export default class TopRated extends Component {
     const { films } = this.state;
     const arr = films.map(movie => {
       return (
-        <div className="flex-container">
-          <div key={movie.id} className="container">
+        <div key={movie.id} className="flex-container">
+          <div className="container">
             <div className="card">
               <img
                 className="card-img-top"
                 src={`https://image.tmdb.org/t/p/w500/${movie.image}`}
               />
-              <div class="card-body">
+              <div className="card-body">
                 <h5 className="card-title">{movie.title}</h5>
                 <p className="card-text">{movie.overview}</p>
               </div>
