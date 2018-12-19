@@ -19,7 +19,7 @@ searchFilm = (e) =>{
             <input className="form-control search-input" 
             onChange={this.searchFilm}
             placeholder="Search..."
-            value={this.state.tem}/>
+            value={this.state.term}/>
             </div>
         )
     }
